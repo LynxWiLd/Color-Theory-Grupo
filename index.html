@@ -3,11 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Facundo Vera" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>ColorTheory</title>
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <body class="d-flex flex-column">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container">
+          <a class="navbar-brand text-white" href="./index.html"
+            ><i class="bi bi-palette-fill pe-2"></i>ColorTheory</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarcolortheoryContent"
+            aria-controls="navbarcolortheoryContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarcolortheoryContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Teoria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tipos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="min-vh-100"></main>
+    <footer class="bg-dark py-4 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex gap-3">
+            <div class="d-flex">
+              <i class="bi bi-palette-fill me-2 fs-5 text-light"></i>
+              <a
+                class="text-light text-decoration-none link-underline-primary"
+                href="./index.html"
+              >
+                <h5>ColorTheory</h5>
+              </a>
+            </div>
+            <div class="ms-auto d-flex gap-3">
+              <a href="#"><i class="bi bi-facebook text-light"></i></a>
+              <a href="#"><i class="bi bi-twitter text-light"></i></a>
+              <a href="#"><i class="bi bi-instagram text-light"></i></a>
+              <a href="#"><i class="bi bi-pinterest text-light"></i></a>
+            </div>
+          </div>
+          <div class="col-12 mt-3 border-top border-secondary pt-3">
+            <div class="d-flex">
+              <p class="text-light">
+                © 2023 ColorTheory. Todos los derechos reservados.
+              </p>
+              <div class="ms-auto d-flex gap-3">
+                <a class="text-light" href="#">Política de privacidad</a>
+                <a href="#" class="text-light">Términos de uso</a>
+                <a href="#" class="text-light">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
