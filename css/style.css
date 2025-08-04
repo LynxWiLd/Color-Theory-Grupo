@@ -1,3 +1,17 @@
 main {
   flex: 1;
 }
+
+video{
+  object-fit: cover;
+}
+
+.video-banner {
+  height: 60vh;
+}
+
+@media (width <= 768px) {
+  .video-banner {
+    height: 25vh;
+  }
+}
