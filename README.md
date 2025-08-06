@@ -6,7 +6,7 @@ Este proyecto es para poner en practica el uso de git.
 - HTML
 - CSS
 - [Boostrap v5.3](https://getbootstrap.com/)
-## Como pprobar este proyecto
+## Como probar este proyecto
 
 Para probar este proyecto debes seguir estos pasos en una terminal:
 
