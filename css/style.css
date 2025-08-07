@@ -16,3 +16,17 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+video{
+  object-fit: cover;
+}
+
+.video-banner {
+  height: 60vh;
+}
+
+@media (width <= 768px) {
+  .video-banner {
+    height: 25vh;
+  }
+}
